@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/gra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gra w kości. Julia Banasik"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rzuć kośćmi"/>
+    
+    <TextView
+        android:id="@+id/wyniklosowania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/wynikgry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry:"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/liczbarzutow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba rzutów:0"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resetuj wynik"/>
+
+</LinearLayout>
